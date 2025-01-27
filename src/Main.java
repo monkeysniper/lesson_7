@@ -11,7 +11,7 @@ public class Main {
             if (hero instanceof Medic) {
                 Medic medic = (Medic) hero;
                 medic.increaseExperience();
-                System.out.println("Опыт лечения медика увеличен до: " + medic.getHealPoints());
+                System.out.println("Опыт лечения медика увеличен:" + medic.getHealPoints());
             }
         }
     }
